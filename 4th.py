@@ -18,3 +18,14 @@ def show1():
 
 
 print(show1())
+
+
+def show2(nums2):
+    max_num = nums[0]
+    for i in nums:
+        if i > max_num:
+            max_num = i
+    return max_num
+
+
+print(show2(nums))
